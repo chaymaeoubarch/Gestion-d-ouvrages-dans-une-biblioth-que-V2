@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Brief8</title>
+</head>
+<body>
+    <div class="container">
+<h1>Books Room</h1>
+
+<form action="javascript:void(0)" id="form">
+    <input type="text" id="title" placeholder="Title" >
+    <input type="text" id="author" placeholder="Author">
+    <input type="number" id="price" placeholder="Price" >
+    <input type="date" id="date" >
+    <input type="text" id="authormail" placeholder="Author mail">
+
+    <select name="language" id="lang" >
+    <option value="English">English</option>
+    <option value="Frensh">Frensh</option>
+    <option value="Arabic">Arabic</option>
+    </select>
+
+    <div class="input-radio">
+    <span><input value='Classic' type="radio" name="b" > <label for="">Classic</label></span>
+    <span><input value='Action' type="radio"  name="b" > <label for="">Action</label></span>
+    <span><input value='Fantacyle' type="radio"  name="b" > <label for="">Fantacy</label></span>
+    </div>
+
+    <input type="submit" id="button"  value="Append">
+    <button id="print" onclick="window.printDiv()" >Print this table </button>
+</form>
+</div>
+
+<div id="res"></div>
+<div id="table">
+    <table id="tablee">
+    <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Price</th>
+        <th>Date</th>
+        <th>Language</th>
+        <th>Author mail</th>
+        <th>Type</th>
+        <th></th>
+    </tr>
+</table>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>

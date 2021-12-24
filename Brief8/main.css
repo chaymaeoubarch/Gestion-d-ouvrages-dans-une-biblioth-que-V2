@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+*{
+    padding : 0 ;
+    margin : 0 ;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+body {background-color: #233969; width: 100%; min-height: 100vh;
+   display: block; text-align: center;
+    } 
+
+.container { width: 100%; margin-top: 20px;}
+
+.container h1{
+    font-family: 'Roboto',sans-serif;
+    color: white;
+    font-size: 45px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    padding-bottom: 20px;
+    text-shadow: 11px 11px 4px rgba(0, 0, 0, 0.25);
+}
+input[type=text],input[type=date],input[type=number],select{
+    width: 500px;
+    height: 45px;
+    margin : 10px ;
+    border-radius:8px ;
+    margin-top: 15px;
+    filter: drop-shadow(4px 3px 4px  #00000a);
+    background-color: #6C82AF;
+    border: none;
+}
+option{
+    font-family: 'Roboto',sans-serif;
+    font-size : 20px;
+}
+::placeholder,::-webkit-datetime-edit,#lang{
+    color : #ffffff;
+    font-family: 'Roboto',sans-serif;
+    font-size : 15px;
+    padding: 10px;
+}
+input[type=submit]{
+    width: 173px;
+    height: 40px;
+    border : none;
+    color : #fff;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-size : 18px;
+    background: #6C82AF;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    letter-spacing: 0.05em;
+    margin-top : 40px;
+}
+.input-radio span input[type=radio]{
+    width: 35px;
+    height: 31px;
+    margin-top: 40px; 
+}
+
+.input-radio span label {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight:normal;
+    font-size: 25px;
+    color : #fff;
+ 
+}
+#table{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#tablee {
+    width: 1200px;
+    height: 68px;
+    background: #546A98;
+    border-collapse: collapse;
+}
+table th{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: white;
+}
+table tr {
+    width: inherit;
+    height: 55px;
+}
+td{
+    background-color: white;
+    height: 20px;
+    text-align: center;
+    border-bottom: 0.5px solid #031956;
+}
+td:hover{
+    background-color: #ddd;
+}
+.fa {
+    color :#031956;
+    padding-right: 5px;
+}
+#res {
+    margin-top :5%;
+    color : red;
+    font-size: 30px;
+    text-align: center;
+}
+#print{
+    width: 173px;
+    height: 40px;
+    border : none;
+    color : #fff;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-size : 18px;
+    background: #6C82AF;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    letter-spacing: 0.05em;
+    margin-left: 50px;
+    
+}
